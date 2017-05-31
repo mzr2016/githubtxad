@@ -8,7 +8,13 @@ The file structure is like this:
 
 githubtxad------------------
 
---data
+------data(for dalao's feature)
+
+------origin_data
+
+------output
+
+------model
 
 --loss_function.py
 
