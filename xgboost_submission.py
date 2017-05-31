@@ -3,7 +3,7 @@ import pandas as pd
 import xgboost as xgb
 
 print "loading..."
-
+#0.103089 in B
 # read  data
 dtrain=xgb.DMatrix(r"./data/filter_count_train_combine.txt")
 dtest=xgb.DMatrix(r"./data/filter_count_final_combine.txt")
